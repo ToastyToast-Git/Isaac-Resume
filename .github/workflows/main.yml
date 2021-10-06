@@ -18,4 +18,4 @@ jobs:
           aws-region: us-east-1
 
       - name: Deploy to S3
-        run: aws s3 sync ./public/ s3://isaac-resume.com --delete --exclude ".*" --size-only
+        run: aws s3 sync ./ s3://isaac-resume.com --delete --exclude ".*" --size-only
