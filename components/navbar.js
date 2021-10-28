@@ -1,4 +1,4 @@
-class Navbad extends HTMLElement {
+class Navbar extends HTMLElement {
   constructor() {
     super();
   }
