@@ -5,6 +5,7 @@ class Navbar extends HTMLElement {
 
   connectedCallback() {
     this.innerHTML = `
+      <style></style>
       <nav class="sidenav">
         <a href="#">These</a>
         <a href="#">Are</a>
