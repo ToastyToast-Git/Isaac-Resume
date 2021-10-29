@@ -12,6 +12,7 @@ class Navbar extends HTMLElement {
         <a href="#">Only</a>
         <a href="#">Placeholders</a>
         <a href="#">For Now</a>	
+        <div>Views: <span id="views"></span></div>
       </nav>
     `;
   }
